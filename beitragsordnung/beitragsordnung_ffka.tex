@@ -1,0 +1,66 @@
+\documentclass[12pt,a4paper,titlepage]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{MnSymbol}
+\usepackage{color}
+\definecolor{grey}{rgb}{0.9,0.9,0.9}
+
+
+\usepackage{graphicx}               % erlaubt einfügen von Bildern
+\usepackage{float}                  %Bilder Fixieren                            
+\usepackage{caption}                % Für Captions in Minipage (für bilder alternativ zu \caption ->\captionof verwenden
+\graphicspath{{./images/}}          % suche nach Bildern im angegebenen Ordner
+\usepackage[printonlyused]{acronym} %ermöglicht das Arbeiten mit Abk. und Verzeichniss
+\usepackage{placeins}               % für \FloatBarrier damit figures auch wirklich genau da stehen bleiben so sie sind... Nicht schön aber ich glaub der Holzhammer muss hier sein... 
+\usepackage{cite}                                                               
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em                   
+   T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+   
+\title{Beitragsordnung Freifunk Karlsruhe e.V.}
+\lstset{prebreak=\raisebox{0ex}[0ex][0ex]
+        {\ensuremath{\rhookswarrow}}}
+\lstset{postbreak=\raisebox{0ex}[0ex][0ex]
+        {\ensuremath{\rcurvearrowse\space}}}
+\lstset{
+	breaklines=true,
+	breakatwhitespace=false,
+	backgroundcolor=\color{grey},
+}
+\renewcommand*\thesection{\S~\arabic{section}}
+\begin{document}
+\maketitle
+\pagenumbering{Roman}
+\thispagestyle{empty}
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section{Höhe der Beiträge}
+\begin{enumerate}
+\item Der Mitgliedsbeitrag für eine ordentliche Mitgliedschaft beträgt mindestens 60 € pro Jahr.
+\item Der Mitgliedsbeitrag für Fördermitglieder beträgt mindestens 60 € pro Jahr.
+\item Ehrenmitglieder sind laut Satzung von der Beitragszahlung befreit.
+\item Im begründeten Einzelfall können für ein Mitglied durch Vorstandsbeschluss von der Beitragsordnung abweichende Regelungen getroffen werden.
+\end{enumerate}
+	
+\section{Aufnahmegebühren, Kündigung und Erstattungen}
+\begin{enumerate}
+\item Aufnahmegebühren werden nicht erhoben.
+\item Eine Erstattung von Mitgliedsbeiträgen findet nicht statt.
+\end{enumerate}
+
+
+\section{Fälligkeit und Zahlungsweise}
+\begin{enumerate}
+\item Der Mitgliedsbeitrag ist zum 01. Januar eines jeden Jahres fällig.
+\item Der Mitgliedsbeitrag für das laufende Jahr wird anteilig für jeden noch nicht begonnenen Monat berechnet und ist sofort fällig.
+\item Der Mitgliedsbeitrag kann per Lastschriftverfahren vom Verein eingezogen, durch Banküberweisung an den Verein oder durch Barzahlung an den Schatzmeister beglichen werden.
+\item Für abgelehnte Lastschriften oder Rücklastschriften werden die anfallenden Gebühren in Rechnung gestellt.
+\end{enumerate}
+\end{document}
